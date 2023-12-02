@@ -1,0 +1,83 @@
+/* EnhancedReactTSIntegration/styles.module.css */
+.enhancedReactTSIntegrationContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border: 1px solid #eaeaea;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.enhancedReactTSIntegrationHeader {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.enhancedReactTSIntegrationContent {
+  width: 100%;
+  max-width: 600px;
+  margin-bottom: 20px;
+}
+
+.enhancedReactTSIntegrationButton {
+  padding: 10px 15px;
+  font-size: 16px;
+  color: white;
+  background-color: #0052cc;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.enhancedReactTSIntegrationButton:hover {
+  background-color: #003ea0;
+}
+
+.enhancedReactTSIntegrationButton:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.enhancedReactTSIntegrationList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.enhancedReactTSIntegrationListItem {
+  padding: 10px;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.enhancedReactTSIntegrationListItem:last-child {
+  border-bottom: none;
+}
+
+.enhancedReactTSIntegrationCodeBlock {
+  background-color: #f0f0f0;
+  border-left: 4px solid #0052cc;
+  padding: 10px;
+  font-family: 'Courier New', Courier, monospace;
+  margin: 10px 0;
+  overflow-x: auto;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .enhancedReactTSIntegrationContainer {
+    padding: 10px;
+  }
+
+  .enhancedReactTSIntegrationHeader {
+    font-size: 20px;
+  }
+
+  .enhancedReactTSIntegrationContent {
+    max-width: 100%;
+  }
+}

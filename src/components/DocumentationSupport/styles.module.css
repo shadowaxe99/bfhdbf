@@ -1,0 +1,61 @@
+/* DocumentationSupport.module.css */
+.documentationContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #f4f4f4;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.documentationHeader {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.documentationContent {
+  font-size: 16px;
+  color: #666;
+  line-height: 1.6;
+}
+
+.documentationList {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.documentationListItem {
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.documentationListItem:last-child {
+  border-bottom: none;
+}
+
+.documentationCodeBlock {
+  background-color: #eee;
+  padding: 15px;
+  border-left: 3px solid #009688;
+  font-family: 'Courier New', Courier, monospace;
+  overflow-x: auto;
+}
+
+.documentationLink {
+  color: #009688;
+  text-decoration: none;
+}
+
+.documentationLink:hover {
+  text-decoration: underline;
+}
+
+.documentationFooter {
+  text-align: center;
+  padding: 20px 0;
+  font-size: 14px;
+  color: #999;
+}

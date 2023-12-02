@@ -1,0 +1,75 @@
+/* OrbitAIDevelopmentKit styles.module.css */
+.orbitAiDevelopmentKitContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: var(--color-background-secondary);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  width: calc(100% - 40px);
+  max-width: 1200px;
+}
+
+.orbitAiDevelopmentKitHeader {
+  font-size: 24px;
+  color: var(--color-text-primary);
+  margin-bottom: 16px;
+}
+
+.orbitAiDevelopmentKitContent {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.orbitAiDevelopmentKitCard {
+  flex: 1;
+  min-width: 280px;
+  padding: 16px;
+  border-radius: 8px;
+  background-color: var(--color-background-light);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.orbitAiDevelopmentKitCardHeader {
+  font-size: 18px;
+  color: var(--color-text-secondary);
+  margin-bottom: 8px;
+}
+
+.orbitAiDevelopmentKitCardBody {
+  font-size: 14px;
+  color: var(--color-text-tertiary);
+  line-height: 1.5;
+}
+
+.orbitAiDevelopmentKitCardFooter {
+  margin-top: auto;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.orbitAiDevelopmentKitButton {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  background-color: var(--color-primary);
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.orbitAiDevelopmentKitButton:hover {
+  background-color: var(--color-primary-dark);
+}
+
+/* Import global variables for consistent theming */
+@import '../../styles/variables.module.css';
