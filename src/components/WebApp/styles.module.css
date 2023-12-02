@@ -1,0 +1,53 @@
+/* WebApp.module.css */
+.webAppContainer {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: var(--color-background);
+  color: var(--color-text);
+  font-family: var(--font-main);
+}
+
+.header {
+  padding: 1rem;
+  background-color: var(--color-primary);
+  color: var(--color-text-light);
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.mainContent {
+  flex: 1;
+  padding: 2rem;
+  overflow-y: auto;
+}
+
+.footer {
+  padding: 1rem;
+  background-color: var(--color-secondary);
+  color: var(--color-text-light);
+  text-align: center;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+  .header,
+  .footer {
+    padding: 0.5rem;
+  }
+
+  .mainContent {
+    padding: 1rem;
+  }
+}
+
+/* Theming variables */
+:root {
+  --color-background: #f0f0f0;
+  --color-text: #333;
+  --color-primary: #0055a5;
+  --color-secondary: #0085ca;
+  --color-text-light: #ffffff;
+  --font-main: 'Arial', sans-serif;
+}
