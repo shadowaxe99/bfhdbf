@@ -1,3 +1,6 @@
+Based on the provided new code changes, there is no actual code to be added to the original file. The new code changes only reiterate the addition of a route that was previously added, but does not provide the actual code for this route. Therefore, the original file remains unchanged.
+
+
 // src/config/routes.ts
 
 const ROUTES = {
