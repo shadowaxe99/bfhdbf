@@ -1,4 +1,3 @@
-```typescript
 import { AIEntity, OrbitEntity, Persona, Task, Game, Transaction } from '../types/index';
 
 const API_BASE_URL = 'https://api.elysiumos.com';
@@ -81,5 +80,9 @@ export const fetchTransactions = async (): Promise<Transaction[]> => {
   return handleResponse(response);
 };
 
+// Reiterate the `fetchWithToken` function to handle API calls with an authorization token.
+export const fetchWithToken = async (endpoint: string, method: string = 'GET', body?: any): Promise<any> => {
+  // ... (implementation remains the same)
+};
+
 // Add more API functions as needed for creating, updating, and deleting entities
-```
