@@ -1,4 +1,3 @@
-```typescript
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import { OrbitAIDevelopmentKit } from './components/OrbitAIDevelopmentKit';
@@ -14,6 +13,7 @@ import { SecureTradingSystem } from './components/SecureTradingSystem';
 import { UniqueAIPersonas } from './components/UniqueAIPersonas';
 import { Immersive3DEnvironments } from './components/Immersive3DEnvironments';
 import { WebApp } from './components/WebApp';
+import { AICollaborationHub } from './components/AICollaborationHub'; // New import for the AICollaborationHub component
 import { AIContextProvider } from './context/AIContext';
 import { OrbitContextProvider } from './context/OrbitContext';
 import './styles/global.css';
@@ -38,6 +38,7 @@ const App: React.FC = () => {
             <Route path={routes.uniqueAIPersonas} component={UniqueAIPersonas} />
             <Route path={routes.immersive3DEnvironments} component={Immersive3DEnvironments} />
             <Route path={routes.webApp} component={WebApp} />
+            <Route path="/collaboration-hub" component={AICollaborationHub} /> {/* New route for the AICollaborationHub component */}
           </Switch>
         </Router>
       </OrbitContextProvider>
@@ -46,4 +47,3 @@ const App: React.FC = () => {
 };
 
 export default App;
-```
