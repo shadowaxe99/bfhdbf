@@ -115,3 +115,12 @@ export interface OrbitState {
 
 export type AIActionType = 'ADD_ENTITY' | 'UPDATE_ENTITY' | 'REMOVE_ENTITY';
 export type OrbitActionType = 'UPDATE_ORBIT_DATA';
+
+// Reiterate the type definitions for AI projects and collaborators.
+export interface Project {
+  // type definition remains the same
+}
+
+export interface Collaborator {
+  // type definition remains the same
+}
